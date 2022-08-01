@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2D73;
+    height: 139px;
+}
+
+h1 img{
+    width: 300px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.menu li{
+    display: inline-block;
+    padding-right: 50px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #D9806C;
+    text-align: center;
+    font-size: 20px;
+    padding-right: 95px;
+    
+}
+
+.imagem2 img{
+    width: 80%;
+    padding-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.parte2{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.parte2 img{
+    width: 300px;
+    object-fit: cover;
+    align-items: center;
+}
+
+.img1 img{
+    width: 300px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.parte2 p{
+    text-align: justify;
+    padding-right: 30px;
+    font-size: 18px;
+    padding-left: 150px;
+    margin-top: 20px;
+}
+
+
+.formulario{
+    background-color: #3C2D73;
+    margin-top: 70px;
+    height: 275px;
+}
+
+
+.cadastro{
+    color: white;
+    text-align: center;
+}
+
+.email {
+    text-align: center;
+    margin-top: 43px;
+}
+
+
+.email label{
+    color: white;
+    font-size: 20px;
+}
+
+.email input{
+    margin-top: 10px;
+    width: 260px;
+    height: 25px;
+}
+
+.botao{
+    text-align: center;
+    align-items: center;
+    margin-top: 49px;
+}
+
+.cadastrar{
+    color: #BF7396;
+    width: 130px;
+    height: 25px;
+}
+
+.rodape-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -115px;
+}
+
+.links-rodape li a{
+    text-decoration: none;
+    color: #151740;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.logo-rodape{
+    width: 10px;
+    
+}
